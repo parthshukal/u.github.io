@@ -33,6 +33,12 @@ body {
 	font-size:1.6em;
 	font-family:"Raleway", sans-serif;
 	color:#1c2541;
+
+	-webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+   user-drag: none;
 }
 h1,
 h2,
@@ -2894,6 +2900,8 @@ a {
 
 /* Max 599px */
 @media only screen and (max-width:599px) {
+
+
 	html {
 		font-size:45%;
 	}
@@ -2994,6 +3002,12 @@ a {
 	.testimonials .tab-content h5 {
 		margin-bottom:10px;
 	}
+	.footer-logo img{
+		position: absolute;
+		right: 0;
+	  width: 20% !important;
+	  top: 40rem !important;
+	}
 }
 
 
@@ -3088,8 +3102,16 @@ a {
 }
 
 .tag-line{
-	font-size: 4.2rem;
+	font-size: 4rem;
 	font-weight: bold;
+}
+
+
+.footer-logo img{
+	position: absolute;
+	right: 0;
+  width: 6%;
+  top: 33rem;
 }
 
 /* .item{
