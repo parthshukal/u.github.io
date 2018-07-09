@@ -3006,7 +3006,7 @@ a {
 		position: absolute;
 		right: 0;
 	  width: 20% !important;
-	  top: 40rem !important;
+	  top: 25rem !important;
 	}
 }
 
@@ -3113,6 +3113,7 @@ a {
   width: 6%;
   top: 33rem;
 }
+
 
 /* .item{
     display:block;
